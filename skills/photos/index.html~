@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<meta http-equiv="Cache-control" content="public">
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117530369-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-117530369-1');
+    </script>
+
+    <link rel="icon" type="image/png" href="https://craighuff.com/myicon.png"/>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+
+    <link href="../../css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="../../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="../../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <!-- Enable responsive view on mobile devices -->
+
+    <!-- Add some JavaScript to enable toggling the descriptions when an image is tapped on a touchscreen device -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="../../js/materialize.js"></script>
+    <script src="../../js/color-thief.min.js"></script>
+    <script src="../../js/init.js"></script>
+
+    <title>Photography</title>
+    <style>
+      * {
+      box-sizing: border-box;
+      }
+
+      body {
+      margin: 0;
+
+      }
+
+      .header {
+      text-align: center;
+      padding: 32px;
+      }
+
+      .big-boxen {
+      display: -ms-flexbox; /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE10 */
+      flex-wrap: wrap;
+      padding: 0 4px;
+      }
+
+      /* Create four equal columns that sits next to each other */
+      .boxen {
+      -ms-flex: 25%; /* IE10 */
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+      }
+
+      .boxen img {
+      margin-top: 8px;
+      vertical-align: middle;
+      }
+
+      /* Responsive layout - makes a two column-layout instead of four columns */
+      @media screen and (max-width: 800px) {
+      .boxen {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+      }
+      }
+
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+      .boxen {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+      }
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <header>
+      <nav class="header-bar light-blue" style="line-height: 30px" role="navigation">
+	<div class="nav-wrapper">
+	  <div id="logo-container" href="/" class="brand-logo hide-on-med-and-up" style="margin-top:15px;" >Craig Huff</div>
+	  <div id="logo-container" href="/" class="brand-logo hide-on-small-only" style="margin-top:17px; margin-left:15%;">Craig Huff</div>
+	  <a href="#" data-activates="mobile-nav" class="button-collapse" style="margin-left: 9.25%;">
+	    <i class="material-icons">menu</i></a>
+	  <ul class="right hide-on-med-and-down" style="margin-top: 17px; margin-right: 15%;">
+	    <li><a href="https://craighuff.com/" class="waves-effect">Home</a></li>
+	    <li><a href="https://craighuff.com/skills/coding/" class="waves-effect">Coding</a></li>
+	    <li><a href="https://craighuff.com/skills/running/" class="waves-effect">Running</a></li>
+	    <li><a href="https://craighuff.com/skills/photos/" class="waves-effect">Photography</a></li>
+	  </ul>
+	  <ul class="side-nav" id="mobile-nav">
+	    <li><div href="https://craighuff.com/" class="waves-effect>">Home</div></li>
+	    <li><div href="https://craighuff.com/skills/coding/" class="waves-effect>">Coding</div></li>
+	    <li><div href="https://craighuff.com/skills/running/" class="waves-effect>">Running</div></li>
+	    <li><div href="https://craighuff.com/skills/photos/" class="waves-effect>">Photography</div></li>
+	  </ul>
+	</div>
+      </nav>
+    </header>
+    <main>
+      <!-- Photo Grid -->
+      <div class="big-boxen section" style="padding-bottom: 10px">
+	<div class="boxen">
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_5715.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_7823.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_0487.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_0193.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_6022.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_3197.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_6765.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_6642.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_6651.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_2844.jpg" style="width:100%"/>
+	</div>
+	<div class="boxen">
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_1417.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_2762.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_2760.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_7130.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_3910.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_7208.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_0253.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_0830.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_9234.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_8645.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_9452.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_9939.jpg" style="width:100%"/>
+ 	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_9606.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_1146.jpg" style="width:100%"/>
+
+	</div>
+	<div class="boxen">
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_7785.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_3486.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_6557.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_1838.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_0754.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_4280.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_0788.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_2756.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_5576.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_0385.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_1141.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_0006.jpg" style="width:100%"/>
+	</div>
+	<div class="boxen">
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_5644.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_7929.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_1250.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_2797.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_3014.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_7830.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_0098.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_0183.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_00360.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_9124.jpg" style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_1083.jpg " style="width:100%"/>
+	  <img class="materialboxed" src="../../photos/WebsitePhotos/IMG_0016.jpg " style="width:100%"/>
+	</div>
+    </main>
+    <footer class="page-footer amber lighten-1">
+      <div class="container">
+	<div class="row">
+	  <div class="col l6 s12">
+	    <h5 class="black-text">Tl;Dr</h5>
+	    <p class="flow-text grey-text text-darken-4">I'm a fifth year computer science student, a member
+	      of San Jose State's Cross Country and Track team, and I enjoy taking pictures of nature in my free
+	      time. </p>
+
+	  </div>
+	  <div class="fixed-action-btn horizontal click-to-toggle">
+	    <a class="btn-floating waves-effect btn-large light-blue lighten-1">
+	      <i class="material-icons">info_outline</i>
+	    </a>
+	    <ul>
+	      <li><a class="btn-floating waves-effect purple"
+		     href="https://github.com/cthuff" target="_blank"><i class="fa fa-github"></i></a></li>
+	      <li><a class="btn-floating waves-effect indigo"
+		     href="https://linkedin.com/in/craigthuff" target="_blank"><i class="fa fa-linkedin"></i></a>
+	      </li>
+	      <li><a class="btn-floating waves-effect pink"
+		     href="https://itunes.apple.com/profile/cthuff" target="_blank"><i
+										       class="fa fa-apple"></i></a></li>
+	      <li><a class="btn-floating waves-effect green"
+		     href="https://www.tfrrs.org/athletes/5151732" target="_blank"><i
+										      class="material-icons">timer</i></a></li>
+	    </ul>
+	  </div>
+	</div>
+      </div>
+      <div class="footer-copyright">
+	<div class="container">
+	  <p> All images on this page may not be redistributed or copied without written permission from Craig Huff.
+	  </p>
+	  Made by <a class="light-blue-text" href="https://craighuff.com"> Craig Huff </a> © 2018
+	</div>
+      </div>
+    </footer>
+
+  </body>
+</html>
+
