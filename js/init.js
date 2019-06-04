@@ -30,15 +30,3 @@ $('.materialboxed').on("click", function(){
     }, 10);
 
 });
-
-function showLogs() {
-    if (iframe3 === 'block') {
-        iframe3.style.display = 'none';
-    }
-    else {
-        iframe3.style.display = 'block';
-    }
-    console.log("Logs runs ");
-}
-
-
