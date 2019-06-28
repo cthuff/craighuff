@@ -23,10 +23,11 @@
     <!-- Enable responsive view on mobile devices -->
 
     <!-- Add some JavaScript to enable toggling the descriptions when an image is tapped on a touchscreen device -->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="../../js/materialize.js"></script>
-    <script src="../../js/color-thief.min.js"></script>
-    <script src="../../js/init.js"></script>
+	<script src="../../js/color-thief.min.js"></script>
+	<script src="../../js/init.js"></script>
+    
 
     <title>Photography</title>
     <style>
@@ -216,5 +217,25 @@
     </footer>
 
   </body>
+
+  <script>
+  $('.materialboxed').on("click", function(){
+
+		var imgSrc = $(this).prop("src");
+	
+		var actualImg = new Image();
+	
+		actualImg.src = imgSrc;
+	
+		var colorThief = new ColorThief();
+		var newColor = colorThief.getColor(actualImg);
+		newColor = "rgb("+ newColor[0] + "," + newColor[1] + "," + newColor[2] + ")";
+	
+		setTimeout(function() {
+			$("div#materialbox-overlay").css("background-color", newColor);
+		}, 10);
+	
+	});
+</script>
 </html>
 

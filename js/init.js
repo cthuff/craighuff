@@ -10,23 +10,23 @@
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
-$('.materialboxed').on("click", function(){
+// $('.materialboxed').on("click", function(){
 
-    var imgSrc = $(this).prop("src");
+//     var imgSrc = $(this).prop("src");
 
-    var actualImg = new Image();
+//     var actualImg = new Image();
 
-    actualImg.src = imgSrc;
+//     actualImg.src = imgSrc;
 
-    var colorThief = new ColorThief();
-    var newColor = colorThief.getColor(actualImg);
-    newColor = "rgb("+ newColor[0] + "," + newColor[1] + "," + newColor[2] + ")";
-    console.log("URL", imgSrc);
+//     var colorThief = new ColorThief();
+//     var newColor = colorThief.getColor(actualImg);
+//     newColor = "rgb("+ newColor[0] + "," + newColor[1] + "," + newColor[2] + ")";
+//     console.log("URL", imgSrc);
 
-    console.log("Waiting...");
+//     console.log("Waiting...");
 
-    setTimeout(function() {
-        $("div#materialbox-overlay").css("background-color", newColor);
-    }, 10);
+//     setTimeout(function() {
+//         $("div#materialbox-overlay").css("background-color", newColor);
+//     }, 10);
 
-});
+// });
